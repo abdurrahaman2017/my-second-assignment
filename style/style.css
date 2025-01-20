@@ -15,8 +15,9 @@
   font-style: normal;
 }
 
-main{
-    max-width: 1500px;
+main,
+.banner{
+    max-width: 1600px;
     margin: 0px auto;
 }
 
@@ -28,7 +29,7 @@ main{
     color: orange;
 }
 .skyblue{
-    color: skyblue;
+    color:#01ACFD;
 }
 
 .font-size1{
@@ -37,7 +38,7 @@ main{
 
 .btn-primary{
     background-color: orange;
-    padding: 10px 50px;
+    padding: 10px 40px;
     border-radius: 10px;
     border:none;
     color: aliceblue;
@@ -61,7 +62,7 @@ main{
 .navbar{
     display: flex;
     justify-content: space-between;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0px auto;
     align-items: center;
     padding-top:30px;
@@ -91,7 +92,7 @@ main{
 .navbar-menu-about,
 .navbar-menu-facilities,
 .navbar-menu-admission{
-    font-weight:500px;
+    font-weight:700;
     padding: 10px 15px;
 }
 
@@ -101,10 +102,10 @@ main{
     transition: 0.3s;
     border-radius: 5px;
 }
-.facilities{
+.navbar-menu-facilities{
     color: #05D4DF;
 }
-.admission{
+.navbar-menu-admission{
     color:#5D58EF;
 }
 
@@ -129,9 +130,30 @@ main{
         margin-right: 20px;
     }
 }
-
-
-
-
-
 /* mav bar code end here */
+
+
+/* banner section code start here */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0p auto;
+    gap:50px;
+}
+.banner-text-container{
+    max-width: 700px;
+}
+.banner-text-container-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.banner-text-container-description{
+    margin: 24px 0px;
+}
+
+.banner-img-container > img{
+    width: 100%;
+}
+
+/* bannner section code end here */
