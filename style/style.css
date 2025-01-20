@@ -2,7 +2,6 @@
     margin: 0px;
     pad: 0px;
 }
-
 .work-sans-font{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
@@ -74,7 +73,6 @@ main{
 .navbar-brand-name{
     font: bold;
     font-size:1.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px pink;
 }
 .navbar-menu-container > ul{
@@ -110,6 +108,27 @@ main{
     color:#5D58EF;
 }
 
+.menu-bar{
+    font-size:40px;
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .navbar-brand-name > h2{
+        display:none;
+    }
+    .navbar-menu-container{
+        display: none;
+    }
+    .navbar-btn{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+        margin-right: 20px;
+    }
+}
 
 
 
