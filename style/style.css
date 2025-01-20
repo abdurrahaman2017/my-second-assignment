@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    pad: 0px;
+}
+
+.work-sans-font{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+}
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+}
+
+main{
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+/* shared code start here */
+.black{
+    color:black;
+}
+.orange{
+    color: orange;
+}
+.skyblue{
+    color: skyblue;
+}
+
+.font-size1{
+    font-size: 1.25rem;
+}
+
+.btn-primary{
+    background-color: orange;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border:none;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-weight:500px;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background:none;
+    border: 2px solid palevioletred;
+    color: black;
+    transition: 0.3s;
+}
+
+/* shared code end here */
+
+
+/* nav bar code start here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0px auto;
+    align-items: center;
+    padding-top:30px;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand-name{
+    font: bold;
+    font-size:1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px pink;
+}
+.navbar-menu-container > ul{
+    display: flex;
+}
+.navbar-menu-container > ul > li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar-menu-container > ul > li > a{
+    text-decoration: none;
+}
+
+.navbar-menu-home,
+.navbar-menu-about,
+.navbar-menu-facilities,
+.navbar-menu-admission{
+    font-weight:500px;
+    padding: 10px 15px;
+}
+
+.navbar-menu-container > ul > li > a:hover{
+    background-color: palevioletred;
+    color: aliceblue;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color:#5D58EF;
+}
+
+
+
+
+
+
+/* mav bar code end here */
