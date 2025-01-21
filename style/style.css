@@ -134,7 +134,6 @@ main{
     }
     .menu-bar{
         display: block;
-        margin-right: 20px;
     }
 }
 /* mav bar code end here */
@@ -178,6 +177,11 @@ main{
 
     .btn-primary{
         font-size: 1rem;
+    }
+
+    .banner-text-container{
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -307,6 +311,7 @@ main{
     margin-right: 10px;
     
 }
+
 /* curriculum section code end here */
 
 
