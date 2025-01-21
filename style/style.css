@@ -312,6 +312,28 @@ main{
     
 }
 
+@media screen and (max-width:576px) {
+    .curriculum-section{
+        margin-top:100px;
+    }
+    .curriculum-section > h2{
+        font-size: 1.60rem;
+        margin: 30px 0px;
+    }
+
+    .curriculum-card-container{
+        grid-template-columns: 1fr;
+    }
+
+    .curriculum-single-card > button{
+        margin-bottom: 30px;
+    }
+
+    .curriculum-icon{
+        display: none;
+    }
+}
+
 /* curriculum section code end here */
 
 
