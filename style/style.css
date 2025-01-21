@@ -15,10 +15,17 @@
   font-style: normal;
 }
 
-main,
+section,
 .banner{
     max-width: 1600px;
-    margin: 0px auto;
+    margin: 150px auto;
+}
+
+main{
+    background-image:url("../assets/bg.png"), linear-gradient(white, rgb(217, 226,203));
+    background-repeat:repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 /* shared code start here */
@@ -175,3 +182,131 @@ main,
 }
 
 /* bannner section code end here */
+
+
+/* curriculum section code start here */
+.curriculum-section{
+    text-align: center;
+}
+.curriculum-section > h2{
+    font-weight: bold;
+    color: black;
+    font-size: 2.86rem;
+    margin-bottom: 80px;
+}
+.curriculum-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    text-align: center;
+}
+
+.kinder-container{
+    background:linear-gradient(#DEF5FF, white, white);
+}
+.elementary-container{
+    background: linear-gradient(#FFF4DC, white, white);
+}
+.middle-container{
+    background: linear-gradient(#e3dcec, white, white);
+}
+
+.kinder-btn{
+   color:#64C8FF;
+   padding: 10px;
+   border: none;
+   background: none;
+   font-weight: bold;
+   font-size: 0.9rem;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.elementary-btn{
+    color:#F0AA00;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.middle-btn{
+    color:#8700FF;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.kinder-btn:hover{
+    background-color:#64C8FF;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    transition: 0.5
+}
+.elementary-btn:hover{
+    background-color:#F0AA00;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.middle-btn:hover{
+    background-color:#8700FF;
+    border-radius: 10px;
+    border: none;
+    color:aliceblue;
+    transition: 0.5s;
+}
+
+.curriculum-single-card{
+    padding:50px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+.curriculum-single-card:hover{
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    background: none;
+    cursor:grab;
+    
+}
+.curriculum-single-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+
+.curriculum-single-card-description{
+    font-size: 1rem;
+    color:#808080;
+    text-align: justify;
+}
+
+.curriculum-icon{
+    padding-bottom:50px;
+}
+
+.curriculum-icon > i{
+    background-color:#F0AA00;
+    color: aliceblue;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: -5px;
+    border-radius:100%;
+    font-size: 20px;
+    margin-top:50px;
+    margin-right: 10px;
+    
+}
+/* curriculum section code end here */
+
+
