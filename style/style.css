@@ -470,5 +470,88 @@ main{
 
 }
 
-
 /* story section code end here */
+
+/* footer section code start here */
+.footer{
+    background-color:#9980FA;
+    margin-top: -150px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer > h5 > span{
+    color: #F0AA00;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer-section-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0px auto;
+}
+.footer-section-container > div{
+    max-width: 400px;
+    padding: 50px;
+}
+.footer-brand-container-img{
+    display:inline-block;
+}
+.footer-brand-container-title{
+    font-size: 2.40rem;
+    color: aliceblue;
+    display: inline-block;
+    line-height:40px;
+    margin-left: 20px;
+}
+
+.footer-brand-container-description{
+    font-size:0.9rem;
+    color: aliceblue;
+    margin-top: 20px;
+    text-align: justify;
+}
+.footer-about-container > h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.footer-about-container{
+    text-align:start;
+}
+
+.footer-about-container > ul > li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.footer-about-container > ul > li > a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.footer-about-container > ul > li > a:hover{
+    color:black;
+}
+
+.contact-icon-container > h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-left:15px;
+}
+
+.contact-icon{
+    display: flex;
+}
+.contact-icon > div{
+    margin: 20px 10px ;
+}
+
+.contact-icon > div > img{
+    cursor: pointer;
+}
+
+/* footer section code end here */
