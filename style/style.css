@@ -143,6 +143,7 @@ main{
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin: 0p auto;
     gap:50px;
 }
@@ -310,7 +311,15 @@ main{
     margin-top:50px;
     margin-right: 10px;
     cursor: pointer;
+    border: 2px solid #F0AA00;
     
+}
+
+.curriculum-icon > i:hover{
+    background: none;
+    border: 2px solid #F0AA00;
+    color: #F0AA00;
+    transition: 0.3s;
 }
 
 @media screen and (max-width:576px) {
@@ -554,4 +563,24 @@ main{
     cursor: pointer;
 }
 
+marquee{
+    font-weight: bold;
+    text-shadow: 5px 5px 5px salmon;
+}
+
+@media screen and (max-width:576px) {
+    .footer-section-container{
+        flex-direction: column;
+        
+    }
+
+    .footer-about-container{
+        margin-top: -90px;
+    }
+
+    .contact-icon-container{
+        margin-top: -90px;
+        margin-left: 30px;
+    }
+}
 /* footer section code end here */
